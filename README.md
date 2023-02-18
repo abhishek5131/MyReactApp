@@ -1,4 +1,4 @@
 # MyReactApp
 Journey towards learning the Javascript library.
-Creating a new simple information website.
+Creating an application.
 My first attempt in the direction of learning reactjs.
