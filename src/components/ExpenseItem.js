@@ -1,14 +1,15 @@
 import React from 'react'
 import './ExpenseItem.css'
 
-const ExpenseItem = () => {
+const ExpenseItem = (props) => {
+
     return (
         <div className='expense-item'>
-            <div>23 Feb, 2023</div>
+            <div>{props.date.toISOString()}</div>
             <div className='expense-item__description'>
-                <h2>Bike Insurance</h2>
-                </div>
-            <div className='expense-item__price'>Rs2500</div>
+                <h2>{props.title}</h2>
+            </div>
+            <div className='expense-item__price'>{props.amount}</div>
         </div>
     )
 }
